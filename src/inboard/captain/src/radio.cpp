@@ -8,6 +8,7 @@
 using namespace std::chrono_literals;
 #include <functional>
 
+
 Captain::Captain(const char * _nodeName) : Node(_nodeName)
 											, m_count(0)
 {

@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="captain" exec="captain" name="captain" namespace="abc"/>
+    <node pkg="coxswain" exec="coxswain" name="coxswain" namespace="abc"/>
+    <node pkg="radio" exec="radio" name="radio" namespace="abc"/>
+</launch>
